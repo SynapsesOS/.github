@@ -52,7 +52,7 @@ When multiple AI agents work on the same codebase:
 ✅ **Episodic Memory** — Agents learn: "I tried this pattern last week and it failed"
 ✅ **Local LLMs** — Brain sidecar (Qwen/Mistral/etc) on llama-server, no cloud
 ✅ **No Code Leaves Your Machine** — All inference + search local-first
-✅ **18 Languages** — Go, TypeScript, Python, Java, Rust, C++, and more
+✅ **49+ Languages** — Go, TypeScript, Python, Java, Rust, C++, and more
 ✅ **AI-Ready** — Design specifically for agent workflows (not human IDE features)
 
 ---
