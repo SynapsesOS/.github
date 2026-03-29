@@ -17,7 +17,7 @@ When multiple AI agents work on the same codebase:
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  Your IDE (Claude Code, Cursor, VS Code, Windsurf, Zed)  │
+│  Your IDE (Claude Code, Cursor, Windsurf, Zed)            │
 └────────────────────┬─────────────────────────────────────┘
                      │ MCP Protocol (stdio / HTTP)
                      ▼
@@ -85,7 +85,7 @@ That's it — two commands. The `init` wizard handles everything:
 | **[3/4] Starting Engine** | Starts the singleton daemon and registers your project |
 | **[4/4] Connect Agents** | Auto-detects installed AI agents and writes their MCP configs |
 
-Auto-detects: Claude Code, Cursor, VS Code, Windsurf, Zed, Antigravity.
+Auto-detects: Claude Code, Cursor, Windsurf, Zed, Antigravity.
 
 **Non-interactive mode:** `synapses init --yes --agents claude,cursor`
 
